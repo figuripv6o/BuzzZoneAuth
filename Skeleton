@@ -1,0 +1,13 @@
+buzzflow-masterpiece-public/
+├── frontend/               
+│   ├── src/                
+│   │   └── App.js          # Minimal BuzzFlow React/Expo skeleton
+│   └── package.json        # Frontend dependencies
+│
+├── assets/                 
+│   ├── buzz-icon.png       # Public Buzz logo
+│   └── buzz-splash.png     # Public splash visual
+│
+├── LICENSE                 # BuzzLicense™ excerpt (not full text)
+├── README.md               # Public description + BuzzVerse motto
+└── .gitignore              # Node + Expo defaults
