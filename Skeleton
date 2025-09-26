@@ -1,13 +1,31 @@
-buzzflow-masterpiece-public/
-├── frontend/               
-│   ├── src/                
-│   │   └── App.js          # Minimal BuzzFlow React/Expo skeleton
-│   └── package.json        # Frontend dependencies
+BuzzZoneAuth-/
+├── backend/
+│   ├── server.js             # Node.js backend + Firebase Auth
+│   └── package.json
 │
-├── assets/                 
-│   ├── buzz-icon.png       # Public Buzz logo
-│   └── buzz-splash.png     # Public splash visual
+├── frontend/
+│   ├── src/App.js            # React/Expo BuzzZoneAuth UI
+│   └── package.json
 │
-├── LICENSE                 # BuzzLicense™ excerpt (not full text)
-├── README.md               # Public description + BuzzVerse motto
-└── .gitignore              # Node + Expo defaults
+├── mobile/
+│   ├── App.js                # Expo wrapper for mobile
+│   └── buzzguardian.js       # BLE + GPS zone lock logic
+│
+├── assets/
+│   ├── buzz-icon.png         # App logo
+│   ├── buzz-splash.png       # Splash screen
+│   ├── buzz-premium.png      # Gold tier badge
+│   └── buzz-drip.png         # ATL neon variant
+│
+├── config/
+│   ├── firebase.json         # Hosting config
+│   ├── firestore.rules       # BuzzTier security rules
+│   └── storage.rules         # File/media protection
+│
+├── scripts/
+│   ├── buzzpush.sh           # Auto push to GitHub + Firebase
+│   └── buzztrack.sh          # Cert + progress tracker
+│
+├── LICENSE                   # Full BuzzLicense™
+├── README.md                 # Description + motto
+└── .gitignore
